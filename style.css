@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+}
+.custom-font{
+	font-family: 'Inter', sans-serif;
+}
+body{
+	background-color: rgba(233, 235, 241,1);
+}
+
+#title, .name{
+	color: rgb(28,56,95);
+}
+
+.menu{
+	color: rgb(77,97,125);
+}
+
+#sidebar{
+	height: 90vh;
+	scrollbar-width: none; /* for firefox */
+}
+
+#sidebar::-webkit-scrollbar{
+	width: 0px; /* for chrome */
+}
